@@ -30,6 +30,7 @@ export default class SteamOpenID {
 			try {
 				const response = await fetch(`https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=${this.apiKey}&steamids=${steamId}`);
 				const data = await response.json();
+				console.log(data);
 				const players = data.response && data.response.players;
 
 				if (players && players.length > 0) {
