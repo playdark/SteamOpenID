@@ -1,6 +1,7 @@
 {
 	"name": "steamopenid",
 	"main": "main.js",
+	"type": "module",
 	"dependencies": {
 		"openid": "^2.0.10"
 	}
