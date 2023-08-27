@@ -1,7 +1,7 @@
 import openid from 'openid';
 import url from 'url';
 
-module.exports = class SteamOpenID {
+export default class SteamOpenID {
 	constructor(realm, returnUrl, apiKey) {
 		if (!realm || !returnUrl || !apiKey) {
 			throw new Error('Missing a parameter.');
