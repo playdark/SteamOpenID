@@ -1,0 +1,6 @@
+{
+	"name": "steamopenid",
+	"dependencies": {
+		"openid": "^2.0.10"
+	}
+}
